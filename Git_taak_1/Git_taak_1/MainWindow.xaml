@@ -9,7 +9,7 @@
         Background="LightGray">
     <Grid x:Name="Mainwindow"
         >
-        
+
         <TextBlock HorizontalAlignment="Left" Margin="57,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-be" Text="Kleurenpsychologie"/></TextBlock>
         <Image Margin="685,30,25,312" Source="/assets/pxl logo .png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         <Image Margin="57,96,610,262" Source="/assets/Groen.png" Stretch="Fill" RenderTransformOrigin="0.114,-0.324" MouseLeave="Image_MouseLeave_1" MouseEnter="Image_MouseEnter_1" MouseDown="Image_MouseDown"/>
@@ -18,7 +18,8 @@
         <Image Margin="272,217,400,111" Source="/assets/Rood.png" Stretch="Fill" MouseEnter="Image_MouseEnter_4" MouseLeave="Image_MouseLeave_4" MouseDown="Image_MouseDown_3"/>
         <TextBlock HorizontalAlignment="Left" Margin="57,395,0,0" TextWrapping="Wrap" Text="Informatie:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="57,363,0,0" TextWrapping="Wrap" Text="Kleurcode:" VerticalAlignment="Top"/>
-        <TextBox x:Name="Colour_Code" HorizontalAlignment="Left" Margin="124,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Colour_Code" HorizontalAlignment="Left" Margin="124,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" Height="16"/>
+        <TextBox x:Name="Colour_information" HorizontalAlignment="Left" Margin="124,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196"/>
 
     </Grid>
 </Window>

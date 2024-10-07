@@ -78,21 +78,25 @@ namespace Git_taak_1
         private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
             Colour_Code.Text = "#008000";
+            Colour_information.Text = "Groen is de kleur van genezing";
         }
 
         private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
         {
             Colour_Code.Text = "#0000FF";
+            Colour_information.Text = "Blauw is de kleur van intelligentie";
         }
 
         private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
         {
             Colour_Code.Text = "#FFFF00";
+            Colour_information.Text = "Geel is de kleur van levenslust";
         }
 
         private void Image_MouseDown_3(object sender, MouseButtonEventArgs e)
         {
             Colour_Code.Text = "#FF0000";
+            Colour_information.Text = "Rood is de kleur van warmte";
         }
     }
 

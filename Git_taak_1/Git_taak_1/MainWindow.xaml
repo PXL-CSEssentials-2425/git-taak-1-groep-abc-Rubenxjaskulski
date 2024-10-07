@@ -11,7 +11,7 @@
         >
         
         <TextBlock HorizontalAlignment="Left" Margin="57,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="nl-be" Text="Kleurenpsychologie"/></TextBlock>
-        <Image Margin="686,30,25,312" Source="/assets/pxl logo .png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
+        <Image Margin="685,30,25,312" Source="/assets/pxl logo .png" Stretch="Fill" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         <Image Margin="57,96,610,262" Source="/assets/Groen.png" Stretch="Fill" RenderTransformOrigin="0.114,-0.324" MouseLeave="Image_MouseLeave_1" MouseEnter="Image_MouseEnter_1"/>
         <Image Margin="272,96,400,249" Source="/assets/Blauw.png" Stretch="Fill" RenderTransformOrigin="0.512,0.417" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2"/>
         <Image Margin="57,217,589,122" Source="/assets/Geel.png" Stretch="Fill" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3"/>
